@@ -1,14 +1,10 @@
-let respuesta = ""
+let respuesta = prompt("te gusta el pilin? responde si o no")
 let resultado = 0
 
-for (let i = 1; i !== resultado ; i++) {
-        if (respuesta !== "si") {
-        respuesta = prompt("te gusta el pilin?") 
+for (let i = 0; respuesta !== "si" ; i++) {
+        respuesta = prompt("seguro xD?") 
         console.log(respuesta)
-        } else {
-            alert("ya sabia xd")
-            resultado = i + 1
-        }
 }
+alert("ya sabia xd")
 
 
